@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="shop.css">
+<title>Shop</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-div">
+          <img src="audii.jpg" alt="Image 1">
+          <button class="add-to-cart" onclick="addToCart('AUDI R8 Coupe პოსტერი', 12.90)">Add to Cart</button>
+        </div>
+      
+        <div class="image-div">
+          <img src="911 gt3rs.jpg" alt="Image 2">
+          <button class="add-to-cart" onclick="addToCart('Porsche 911 GT3 RS პოსტერი', 12.90)">Add to Cart</button>
+        </div>
+      
+        <div class="image-div">
+          <img src="e36 m3.png" alt="Image 3">
+          <button class="add-to-cart" onclick="addToCart('BMW M3 E36 პოსტერი', 12.90)">Add to Cart</button>
+        </div>
+      
+        <div class="image-div">
+          <img src="lexus lfa.png" alt="Image 4">
+          <button class="add-to-cart" onclick="addToCart('Lexus LFA V10 პოსტერი', 12.90)">Add to Cart</button>
+        </div>
+      
+        <div class="image-div">
+          <img src="E30.jpg" alt="Image 5">
+          <button class="add-to-cart" onclick="addToCart('BMW M3 E30 პოსტერი', 12.90)">Add to Cart</button>
+        </div>
+      </div>
+      
+<div class="goback-btn">
+  <button onclick="goBack()">Go Back</button>
+</div>
+
+<div class="cart" id="cart">
+  <h2>Cart</h2>
+  <div class="cart-items" id="cart-items">
+  </div>
+</div>
+
+<script src="shop.js"></script>
+
+</body>
+</html>
